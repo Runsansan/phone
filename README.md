@@ -1,6 +1,6 @@
 # egg_mobile
 
-> A Vue.js project
+> 手机端项目 vux+vue+axios+global+flex（兼容）
 
 ## Build Setup
 
