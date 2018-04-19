@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"> -->
+    <title></title>
+    <link rel="shortcut icon" href="./src/assets/favicon.ico">
+    <link rel="stylesheet" href="./src/assets/css/basic.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_407445_1jjb8nqfdc8tzkt9.css">
+    <style>
+    * { touch-action: none; }
+    </style>
+  </head>
+  <body>
+    <div id="app-box"></div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="static/js/flex.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XBUMQPHHRCG2EcycQHHKRlDPruVpsG58"></script>
+  </body>
+</html>
+<script>
+    // 禁止ios滑动
+    // document.addEventListener('touchstart', function (event) {
+    //     event.preventDefault();
+    //  }, false);
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-yourID', 'auto')
+  ga('send', 'pageview');
+
+	//关于状态码
+	//BMAP_STATUS_SUCCESS	检索成功。对应数值“0”。
+	//BMAP_STATUS_CITY_LIST	城市列表。对应数值“1”。
+	//BMAP_STATUS_UNKNOWN_LOCATION	位置结果未知。对应数值“2”。
+	//BMAP_STATUS_UNKNOWN_ROUTE	导航结果未知。对应数值“3”。
+	//BMAP_STATUS_INVALID_KEY	非法密钥。对应数值“4”。
+	//BMAP_STATUS_INVALID_REQUEST	非法请求。对应数值“5”。
+	//BMAP_STATUS_PERMISSION_DENIED	没有权限。对应数值“6”。(自 1.1 新增)
+	//BMAP_STATUS_SERVICE_UNAVAILABLE	服务不可用。对应数值“7”。(自 1.1 新增)
+	//BMAP_STATUS_TIMEOUT	超时。对应数值“8”。(自 1.1 新增)
+
+
+</script>
